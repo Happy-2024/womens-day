@@ -1,0 +1,74 @@
+.order-confirmation {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+  }
+ .Gheart{
+    border-color: 2px solid green;
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 200, 83, 0.3);
+    margin-top: 20px;
+  }
+  
+  .order-message {
+    margin: 20px 0;
+  }
+  
+  .order-number {
+    font-weight: bold;
+  }
+  
+  .dashboard-button {
+    padding: 10px 20px;
+    margin-top: 60px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  @media (max-width: 768px) {
+    .order-confirmation {
+      padding: 15px;
+      margin-top: 15px;
+    }
+  
+    .Gheart {
+      width: 40px;
+      height: 40px;
+      margin-top: 15px;
+    }
+  
+    .order-message {
+      margin: 15px 0;
+    }
+  
+    .dashboard-button {
+      padding: 8px 16px;
+      margin-top: 40px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .order-confirmation {
+      padding: 10px;
+      margin-top: 10px;
+    }
+  
+    .Gheart {
+      width: 30px;
+      height: 30px;
+      margin-top: 10px;
+    }
+  
+    .order-message {
+      margin: 10px 0;
+    }
+  
+    .dashboard-button {
+      padding: 6px 12px;
+      margin-top: 30px;
+    }
+  }
+  

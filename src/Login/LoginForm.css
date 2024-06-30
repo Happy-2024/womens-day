@@ -1,0 +1,72 @@
+/* LoginForm.css */
+
+.login-container {
+    width: 707px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    height: auto !important;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+.mobile
+{
+font-size: 22px;
+font-weight: 600;
+margin-top: 30px;
+align-self: self-start;
+
+
+}
+.login-form label {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.login-form input[type="text"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.rme{
+    font-size: 22px;
+    font-weight: 600;
+}
+.remember-me {
+    display: flex;
+    align-items: center;
+    align-self: self-start;
+}
+
+.remember-me input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.login-button {
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 90%;
+}
+
+.signup-text {
+    font-size: 14px;
+    text-align: center;
+}
+
+.signup-text a {
+    color: #007BFF;
+    text-decoration: none;
+}

@@ -1,0 +1,15 @@
+.Head
+{
+    text-align: center;
+    font-weight: 500;
+}
+
+.container {
+    width: 100%;
+  }
+  
+  .lorem {
+    margin: 10px ; /* Center the paragraph horizontally */
+    max-width: 100%; /* Adjust the max-width as needed */
+    text-align: left; /* Align the text within the paragraph to the left */
+  }

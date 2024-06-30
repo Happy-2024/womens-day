@@ -1,0 +1,30 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  line-height:0px;
+}
+
+.dot {
+  position: absolute;
+  top: 0;
+  right:25px;
+  height: 20px;
+  width: 20px;
+  background-color:black;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+.container-fluid
+{
+  padding-left: 45px;
+  gap: 40px;
+}

@@ -1,0 +1,134 @@
+.overall {
+    display: flex;
+    gap:50px
+}
+
+.sidebar {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height: 100%; /* Ensures the sidebar takes up the full height */
+    margin-left:20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.profile {
+    margin: 0; /* Margin is handled by the parent container */
+}
+
+.profile-icon img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.profile-details h5 {
+    margin: 10px;
+    font-size: 1.1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: red;
+    font-size: 1.5em;
+}
+
+hr {
+    border: 0.5px solid #e0e0e0;
+    width: 100%;
+    height: 0px;
+    top: 289px;
+    left: 533px;
+    gap: 0px;
+    border: 0.5px 0px 0px 0px;
+    opacity: 0px;
+
+}
+.Address {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+.Home-Address
+{
+    border: 1px solid#e0e0e0;
+    width: 350px;
+    height: 300px;
+    margin-top: 20px;
+    padding: 10px;
+    /* text-align: center; */
+    padding-top: 1rem;
+}
+
+.Home-Address .icon
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-Address {
+    width: 80%;
+    height: 67px;
+    top: 593px;
+    left: 533px;
+    gap: 0px;
+    border-radius: 2px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-color:white;
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28.9px;
+    text-align: center;
+}
+.btn-Address:hover{
+    width: 80%;
+    height: 67px;
+    top: 593px;
+    left: 533px;
+    gap: 0px;
+    border-radius: 2px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-color:black;
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28.9px;
+    text-align: center;
+    color: white;
+}
+
+/* .btn-Address:hover {
+    background-color: #555b61;
+} */

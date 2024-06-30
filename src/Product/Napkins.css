@@ -1,0 +1,45 @@
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.Box-1,
+.Box-2,
+.Box-3 {
+    width: 372px;
+    height: 225px;
+    border: 1px solid #E2E2E2;
+    border-radius: 2px;
+    position: relative; /* Add position: relative to contain absolute positioning of children */
+}
+
+.img1 {
+    position: absolute;
+    top: 50px; /* Use top instead of margin-top for absolute positioning */
+    left: 20px; /* Use left instead of margin-left for absolute positioning */
+}
+
+.pc {
+    position: absolute;
+    top: 55px;
+    left: 100px;
+    font-weight: 600;
+}
+
+.pcc {
+    position: absolute;
+    top: 75px;
+    left: 100px;
+}
+
+.pccc {
+    position: absolute;
+    top: 60%;
+    left:50px; /* Adjust left to align with other elements */
+    text-align:left;
+    min-width:100px; /* Adjust width to prevent overflow */
+    bottom: 0%;
+}
+

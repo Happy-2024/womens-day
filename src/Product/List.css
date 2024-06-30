@@ -1,0 +1,61 @@
+.Ban {
+    border: 1px solid #F4F5F7;
+    max-width: 100%;
+    background-color: #F4F5F7;
+    padding: 20px; /* Add padding for better spacing */
+    height: 753px;
+    position: relative;
+}
+
+.lists {
+    display: flex;
+    flex-direction: column; /* Change flex direction to column for smaller screens */
+    align-items: center; /* Center items vertically */
+    text-align: left; /* Ensure text is left-aligned */
+    margin-top: 100px ;
+}
+
+.lists img {
+    max-width: 100%; /* Ensure image is responsive within its container */
+    margin-bottom: 20px; /* Add margin bottom for spacing */
+    margin-left:50px;
+}
+
+.lists ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.lists li {
+    position: relative;
+    padding: 15px;
+    margin-bottom: 10px; /* Adjust margin bottom for spacing between list items */
+}
+
+.lists li::before {
+    content: attr(data-number); /* Use data attribute to display number */
+    position: absolute;
+    left: -20px; /* Adjust position of number */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%);
+    color: #333;
+    font-weight: bold;
+}
+
+.number {
+    color: #000;
+    font-weight: 500;
+}
+
+@media (min-width: 768px) {
+    .lists {
+        flex-direction: row; /* Change back to row for larger screens */
+        justify-content: flex-start; /* Align items to the start */
+    }
+
+    .lists img {
+        margin-bottom: 0; /* Remove bottom margin for image on larger screens */
+        margin-right: 20px; /* Add margin right for spacing between image and list */
+    }
+}

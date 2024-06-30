@@ -1,0 +1,100 @@
+h2 {
+    text-align: center;
+}
+
+.Time .content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap; /* Allow wrapping to handle smaller screens */
+}
+
+.Time .box {
+    width: calc(100% / 4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    max-width: 150px;
+    background-color:#EFE7E1;
+    color:#D2976B; 
+    border-radius: 10px; /* Optional: to make it look nicer */
+    padding: 10px; 
+    margin: 10px; 
+}
+
+.Time .value {
+    font-size:36px; /* Optional: to make the value larger */
+}
+
+.Time .label {
+    font-size: 1rem; /* Optional: to make the label smaller */
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* h2
+{
+    text-align: center;
+}
+.Time .content
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.Time .box
+{
+    width:calc(100% / 4);
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 107px;
+    max-width:150px;
+    background: #EFE7E1;
+    color: #D2976B;
+} */

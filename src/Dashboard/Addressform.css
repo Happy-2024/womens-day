@@ -1,0 +1,159 @@
+.overall {
+  display: flex;
+  gap:100px;
+  margin-top: 50PX;
+}
+
+
+.top-header {
+width: 100%;
+height: 81px;
+top: 91px;
+gap: 0px;
+opacity: 0px;
+background: #F4F5F7;
+margin-bottom: 40px;
+
+}
+
+.sidebar {
+  width: 30%;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  min-height: 100%; /* Ensures the sidebar takes up the full height */
+  margin-left:2%;
+  border-radius: 20px;
+  margin-top: 20px;
+  height: 500px;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.profile {
+  margin: 0; /* Margin is handled by the parent container */
+}
+
+.profile-icon img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.profile-details h5 {
+  margin: 10px;
+  font-size: 1.1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: red;
+  font-size: 1.5em;
+}
+
+hr {
+  border: 0.5px solid #e0e0e0;
+}
+
+.Address_form {
+
+  /* border: 1px solid black; */
+  width: 90Vw;
+  height: 100%;
+}
+.Address_form p
+{
+  
+  color: #00973C;
+}
+
+.labelMain {
+  display: flex;
+  gap:20px;
+}
+
+.labelName {
+display: flex;
+flex-direction: column;
+width: 331px;
+height: 63px;
+gap: 0px;
+border-radius: 2px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+}
+.form-group {
+  margin-bottom:20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+width: 70%;
+/* height: 63px; */
+top: 256px;
+left: 598px;
+gap: 0px;
+border-radius: 2px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+
+}
+
+.form-group input {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group input[readonly] {
+  background-color: #f5f5f5;
+}
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 227px;
+  height:63px;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+
+.label-wid {
+  width: 70%;
+  height: 63px;
+  top: 256px;
+  left: 598px;
+  border-radius: 2px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}

@@ -1,0 +1,34 @@
+.banner {
+  position: relative;
+  width: 100%;
+}
+
+.banner1 {
+  position: absolute;
+  top: 60px;
+  left: 5%;
+  color: #000000; /* Corrected color */
+}
+
+.p1 {
+  font-weight: 600;
+  font-size: 48px;
+  margin-top: 20px;
+  color: #000000;
+}
+
+.p2 {
+  font-size: 20px; /* Ensured font-size is consistent */
+  color: #333C56;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.shopnow {
+ /* min-width: 100px; */
+ display: flex;
+ background-color: transparent;
+ align-items: center;
+ gap: 10px;
+}
+

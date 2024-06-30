@@ -1,0 +1,14 @@
+.card_inner{
+    height: 100%;
+    width: 100%;
+    padding-left: 24px;
+}
+.card_inner p{
+  margin-bottom: 40px;
+}
+
+.card_inner button{
+    background: transparent;
+    padding: 6px 26px;
+    border: 1px solid #111111; 
+}

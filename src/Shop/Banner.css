@@ -1,0 +1,89 @@
+/* Banner.css */
+.banner {
+    position: relative;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .banner h2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: #000;
+    text-align: center;
+  }
+  
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: 700;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 20px; /* Add space between the links */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  
+  .text a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .text a:hover {
+    text-decoration: underline;
+  }
+  
+  .text a:active{
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .banner h2 {
+      font-size: 1.5rem;
+      top: 30%;
+    }
+  
+    .text {
+      top: 60%;
+      flex-direction: column;
+    }
+  
+    .text a {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .banner h2 {
+      font-size: 1.2rem;
+      top: 20%;
+    }
+  
+    .text {
+      top: 70%;
+      gap: 10px;
+    }
+  
+    .text a {
+      font-size: 16px;
+    }
+  }
+
+
+  .text a.active {
+    text-decoration: underline; /* Example of underlining active link */
+    /* Add more styles as needed */
+  }
+  
+  

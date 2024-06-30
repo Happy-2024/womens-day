@@ -1,0 +1,181 @@
+.order-form {
+  display: flex;
+  padding: 25px; 
+  gap: 50px;
+  margin-left: 100px;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.address-form, .order-summary {
+  width: 45%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+}
+
+.address-form h2, .order-summary h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.address-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.address-item input {
+  margin-right: 20px;
+}
+
+.address-details {
+  flex: 1;
+}
+
+.address-item button {
+  margin-left: 10px;
+}
+
+.add-address {
+  display: block;
+  margin: auto;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.add-address:hover {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+
+.order-item {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.order-item img {
+  width: 122px;
+  height: 156px;
+  margin-right: 10px;
+}
+
+.item-details p {
+  margin: 0;
+}
+
+.coupon {
+  display: flex;
+  margin-bottom: 10px;
+  height: 50px;
+
+}
+
+.coupon input {
+  width: 50%;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+.coupon .btn
+{
+  min-width: 100px;
+  border: 1px solid black ;
+  border-radius: 20px;
+  height: auto;
+  margin-top: auto;
+}
+.coupon .btn:hover
+{
+  min-width: 100px;
+  border: 1px solid black ;
+  background-color: black;
+  color:white;
+  border-radius: 20px;
+}
+.price-details p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.terms {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.place-order {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.place-order:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(249, 244, 244);
+  border-radius: 20px;
+}
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 1200px) {
+  .order-form {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .order-form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .address-form, .order-summary {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .order-form {
+    padding: 15px;
+    gap: 30px;
+  }
+
+  .address-form, .order-summary {
+    width: 100%;
+    padding: 15px;
+    min-height: 400px;
+  }
+
+  .place-order, .add-address {
+    padding: 8px;
+  }
+}
+
+@media (max-width: 576px) {
+  .order-form {
+    padding: 10px;
+    gap: 20px;
+  }
+
+  .address-form, .order-summary {
+    padding: 10px;
+    min-height: 300px;
+  }
+
+  .address-form h2, .order-summary h2 {
+    font-size: 16px;
+  }
+
+  .place-order, .add-address {
+    padding: 6px;
+  }
+}
